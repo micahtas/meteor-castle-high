@@ -10,18 +10,25 @@ Router.configure({
   loadingTemplate: 'Loading'
 });
 
-Router.route('/', {
+Router.route('/home', {
   name: 'Home'
 });
 
-Router.route('/list', {
-  name: 'ListStuff'
+Router.route('/studentsparents', {
+  name: 'StudentsParents'
 });
 
-Router.route('/add', {
-  name: 'AddStuff'
+Router.route('/facultystaff', {
+  name: 'FacultyStaff'
 });
 
+Router.route('/alumni', {
+  name: 'AlumniFriends'
+});
+
+Router.route('/contactus', {
+  name: 'ContactUs'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
