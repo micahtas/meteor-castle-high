@@ -1,0 +1,59 @@
+body {
+  font-family: Open Sans, sans-serif;
+  color: #999;
+  background-color: #999;
+}
+
+.headerimg
+{
+  background-image: url("/images/header.jpg");
+  background-size: cover;
+  height: 200px;
+}
+
+.navbar-inverse
+{
+  background-color: #710C0C;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+  color: #999999;
+  font-size: 16px;
+}
+
+.well
+{
+  background-color: #710C0C;
+  border-color: #710C0C;
+}
+
+h1
+{
+  font-size: 16px;
+  text-align: center;
+}
+
+a
+{
+  color: #999999;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.knightpride
+{
+  background-image: url("/images/frontpage.jpg");
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2
+{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
